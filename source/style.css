@@ -46,14 +46,15 @@
   }
   .app-value{
     font-size: 88px;
+    line-height: 88px;
     font-weight: bold;
   }
   .app-icon{
-    font-size: 55px;
-    margin-top: 22px;
+    width:  88px;
+    height: 88px;
   }
   .app-unit{
-    margin-top: 16px;
+    margin-top: 6px;
     font-size: 28px;
   }
 .search-form-input{

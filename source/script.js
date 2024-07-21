@@ -11,8 +11,8 @@ function displayTemperature(response) {
     windElement.innerHTML = (`${response.data.wind.speed}km/h`);
     let dateElement = document.querySelector("#date");
     dateElement.innerHTML = formatDate(response.data.time);
-    //let iconElement = document.querySelector("#icon");
-    //iconElement.setAttribute("src", response.data.condition.icon_url);
+    let iconElement = document.querySelector("#icon");
+    iconElement.setAttribute("src", response.data.condition.icon_url);
   }
   function formatDate(timestamp) {
     let date = new Date(timestamp * 1000);
@@ -31,6 +31,7 @@ function displayTemperature(response) {
     if (minutes < 10) {
       minutes = `0${minutes}`;
     }
+    
     return `${day} ${date.getHours()}:${date.getMinutes()}`;
   }
 function searchCity(city){
