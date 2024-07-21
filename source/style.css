@@ -1,12 +1,5 @@
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-  }
-  body{
-    background-color: #fdfdcb;
+body{
+    background-color: whitesmoke;
     font-family: "Roboto", sans-serif;
 
   }
@@ -14,7 +7,7 @@
     color: #c54c82;
   }
   header{
-    border-bottom: 1px solid #fdfdcb;
+    border-bottom: 1px solid whitesmoke;
     padding: 0 0 30px 0;
   }
   .city{
@@ -58,12 +51,14 @@
     font-size: 28px;
   }
 .search-form-input{
-    background-color: #fdfdcb;
+    background-color: white;
+    border: none;
     border-radius: 6px;
     width: 80%;
     font-size: 16px;
     padding: 15px 20px;
 }
+
 .search-form-button{
 background-color: #ec729c;
 padding: 15px 30px;
@@ -83,7 +78,7 @@ main{
 }
 
 footer{
-    border-bottom: 1px solid #fdfdcb;
+    border-bottom: 1px solid whitesmoke;
     padding: 30px 0 0 0 0;
     text-align: center;
     font-size: 14px;
