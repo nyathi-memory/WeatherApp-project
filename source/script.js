@@ -1,3 +1,4 @@
+
 function handleSearchSubmit(event) {
     event.preventDefault();
     let searchIput = document.querySelector("#search-form-input");
